@@ -71,7 +71,7 @@ public class Rainfall {
 
     //finds the month with most rain in a specific year
     public String[] monthWithMostRaininYear(int year) {
-        if (year < 2022 || year > 2022) {
+        if (year < 2020 || year > 2022) {
             return new String[]{"Invalid year", "0"};
         }
 
@@ -90,7 +90,7 @@ public class Rainfall {
     }
 
     public String[] monthWithLeastRaininYear(int year) {
-        if (year < 2022 || year > 2022) {
+        if (year < 2020 || year > 2022) {
             return new String[]{"Invalid year", "0"};
         }
 
