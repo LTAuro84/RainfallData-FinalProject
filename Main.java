@@ -23,7 +23,7 @@ public class Main {
                 case 1:
                     double[] yearlyTotal = rainfall.totalRainfallPerYear();
                     System.out.println("Total rainfall inches for each year: ");
-                    for (int i = 0; yearlyTotal.length < i; i++) {
+                    for (int i = 0; i < yearlyTotal.length; i++) {
                        System.out.printf("Year %d: %.2f inches\n", 2020 + i, yearlyTotal[i]);
                     }
                 break;
